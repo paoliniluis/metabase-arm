@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN apt-get update && apt-get install -y bash ttf-dejavu fontconfig curl ca-certificates-java
 
-ADD https://downloads.metabase.com/enterprise/v1.43.3/metabase.jar .
+ADD https://downloads.metabase.com/enterprise/v1.44.3/metabase.jar .
 ADD https://raw.githubusercontent.com/metabase/metabase/master/bin/docker/run_metabase.sh .
 
 EXPOSE 3000
